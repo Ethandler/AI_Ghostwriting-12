@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\CopyAndAutoType]
+@="Copy & AutoType"
+"icon"="C:\\Windows\\System32\\imageres.dll,23"
+
+[HKEY_CLASSES_ROOT\*\shell\CopyAndAutoType\command]
+@=C:\Users\Ethan\AppData\Local\Programs\Python\Python313\python.exe C:\\Users\\Ethan\\Projects\\AI_Ghostwriting-12\\AI_Ghostwriting\\old\\auto_typingbeta.py copy"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AutoTypeHere]
+@="AutoType Here"
+"icon"="C:\\Windows\\System32\\imageres.dll,23"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AutoTypeHere\command]
+@="C:\\Python39\\pythonw.exe C:\\Users\\Ethan\\Projects\\AI_Ghostwriting-12\\AI_Ghostwriting\\old\\auto_typingbeta.py type"
